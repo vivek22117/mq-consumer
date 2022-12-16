@@ -1,4 +1,4 @@
-package com.vvmishra.example;
+package com.testmq.example;
 
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
@@ -22,7 +22,7 @@ public class AmazonMQConsumer {
     // Specify the connection parameters.
     private final static String WIRE_LEVEL_ENDPOINT
             = "ssl://b-f56af7c3-9c63-489e-b641-8d4439221c13-1.mq.us-east-1.amazonaws.com:61617";
-    private final static String ACTIVE_MQ_USERNAME = "vvmishra";
+    private final static String ACTIVE_MQ_USERNAME = "test";
     private final static String ACTIVE_MQ_PASSWORD = "Password@1234";
     private final static String RABBIT_MQ_PASSWORD = "password@1234";
 

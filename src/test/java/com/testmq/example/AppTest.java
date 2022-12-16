@@ -1,4 +1,4 @@
-package com.vvmishra.example;
+package com.testmq.example;
 
 import static org.junit.Assert.assertTrue;
 
